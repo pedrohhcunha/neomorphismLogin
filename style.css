@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(130deg, #fff, rgba(241, 241, 241, 0.867));
+}
+.container{
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    2px 2px 8px rgba(0, 0, 0, 0.55);
+    padding: 20px;
+    margin-right: 50px;
+}
+.container h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: tomato;
+    margin-bottom: 25px;
+}
+.container form .area-input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    2px 2px 8px rgba(0, 0, 0, 0.55);
+}
+.container form .area-input:hover{
+    background-color: rgba(255, 99, 71, 0.205);
+    transition: .5s;
+}
+.container form .area-input.active{
+    background-color: rgba(255, 99, 71, 0.205);
+    transition: .5s;
+}
+.container form .area-input i{
+    margin-right: 10px;
+    color: tomato;
+}
+.container form .area-input input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: tomato;
+    font-size: 16px;
+}
+.container form button{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    color: tomato;
+    margin-bottom: 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    2px 2px 8px rgba(0, 0, 0, 0.55);
+}
+.container form button:hover{
+    filter: brightness(.9);
+    transition: .2s;
+}
+.container .area-btns{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.container .area-btns button{
+    height: 40px;
+    width: 49%;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+.container .area-btns button:hover{
+    filter: brightness(0.8);
+    transition: .2s;
+}
+.container .area-btns button:nth-child(1){
+    background: #395694;
+}
+.container .area-btns button:nth-child(2){
+    background: #ec4235;
+}
+.container p a{
+    color: tomato;
+}
+.container .erro{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #ff6347bb;
+    border: 2px solid tomato;
+}
+.container .acerto{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #1aca1a7a;
+    border: 2px solid #1aca1a;
+}
